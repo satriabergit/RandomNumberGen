@@ -8,4 +8,8 @@ public class RandomNumberGen {
         return new Random().nextInt();
     }
 
+    public int getRandomNumber(int limit) {
+        return new Random().nextInt(limit);
+    }
+
 }
